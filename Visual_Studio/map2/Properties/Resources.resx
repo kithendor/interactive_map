@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="im1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>im1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>s1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1253</value>
+  </data>
+  <data name="test1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>test1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1253</value>
+  </data>
+  <data name="ch" xml:space="preserve">
+    <value>Τσεχία-Μικρή Πόλη-Το πιο γραφικό σημείο μιας γραφικής πόλης!&#xB;Την περιοχή της Μικρής Πόλης την διαπερνάει σαν άξονας ένα τμήμα της λεγόμενης "βασιλικής οδού", που αφού συναντηθεί με την Γέφυρα του Καρόλου, συνεχίζει γύρω από την μπαρόκ Εκκλησία του Αγ. Νικολάου και ανεβαίνει την υπέροχη οδό Νερούντοβα, πριν τη μεγάλη στροφή προς το Κάστρο. Όμως πολλές από τις ομορφιές αυτής της συνοικίας βρίσκονται μακριά από αυτό τον άξονα, που ακολουθούν οι περισσότεροι επισκέπτες.... Στους παρακάτω ήσυχους δρόμους, στο νησί Κάμπα και στους κήπους.-Γέφυρα του Καρόλου-Εδώ και εξακόσια χρόνια η Γέφυρα του Καρόλου εντυπωσιάζει τους επισκέπτες της Πράγας, όπως και τους ίδιους τους ντόπιους κατοίκους. Είναι η παλαιότερη γέφυρα της Πράγας, κορυφαίο έργο της αρχιτεκτονικής του μεσαίωνα, που σώζεται μέχρι σήμερα.&#xB;Το μήκος της πεζογέφυρας είναι 515 μ, το πλάτος 9,5 μ και στηρίζεται σε 16 πυλώνες. Τριάντα αγάλματα που την διακοσμούν, στην πλειοψηφία τους μπαρόκ ρυθμού, την μεταμόρφωσαν σε μια υπαίθρια γλυπτοθήκη.-Το Σπίτι που Χορεύει-Ένα από τα πιο συζητημένα/αντιφατικά έργα μοντέρνας αρχιτεκτονικής. Είναι ένα κτίσμα κόσμημα, που έχει γίνει αναπόσπαστο κομμάτι της Πράγας.&#xB;Ο τσιμεντένιος πύργος παρουσιάζει τον χορευτή, ο γυάλινος την χορεύτρια. Είναι το κεφάλι του Φρεντ Αστέρ. Ο Φρεντ αγκαλιάζει την Τζίντζερ Ρότζερς στην μέση…&#xB;Η θέα από το εστιατόριο και από το μπαρ είναι εκπληκτική.-Το Κεφάλι του Κάφκα-Το υπερμέγεθες τεράστιο κινούμενο άγαλμα το δημιούργησε ο Τσέχος πρωτοποριακός καλλιτέχνης «David Cerny». Το προσανατόλισε να κοιτάει το δημαρχείο, ώστε να σας υπενθυμίζει τον Κάφκα, όταν είστε εντελώς απογοητευμένοι με την ανικανότητα των δημοσίων υπαλλήλων (είπε ο Τσέρνυ).&#xB;Μεταμορφώνεται όπως και ο πρωταγωνιστής του βιβλίου Μεταμόρφωση, που έγραψε ο Κάφκα.</value>
+  </data>
+  <data name="fra" xml:space="preserve">
+    <value>Γαλλία-Ο πυργος του Αϊφελ-
+Είναι το σήμα κατατεθέν της πόλης του Παρισιού. Κατασκευάστηκε το 1889 από τον μηχανικό Γουστάβο Άιφελ και σήμερα αποτελεί ένα από τα γνωστότερα κτίρια στον κόσμο. Με ύψος 324 μέτρα (300 χωρίς την κεραία) ήταν το πιο ψηλό κτίριο στον κόσμο μέχρι που το ξεπέρασε το Εμπάιρ Στέιτ Μπίλντινγκ της Νέας Υόρκης το 1931.
+-Το μουσείο του Λούβρου -
+Το μουσείο του Λούβρου (γαλλικά: Musée du Louvre) είναι ένα από τα μεγαλύτερα και παλαιότερα μουσεία τέχνης στον κόσμο. Βρίσκεται στο κέντρο του Παρισιού, στις όχθες του Σηκουάνα και εκθέτει 35.000 έργα τέχνης  το 8% των αποκτημάτων του, που υπολογίζονται στα 445.000 κομμάτια. Οι μόνιμες συλλογές του μουσείου καταλαμβάνουν συνολικά έκταση 60.600 τετραγωνικών μέτρων και ανάμεσα σε αυτές είναι και οι ελληνικές, που καλύπτουν 25 αίθουσες ή χώρους
+-Η Παναγία των Παρισίων -
+Η Παναγία των Παρισίων, γνωστή και ως Νοτρ Νταμ ντε Παρί ή απλούστερα Νοτρ Νταμ, είναι ο μητροπολιτικός Ρωμαιοκαθολικός ναός της πόλης του Παρισιού και αποτελεί ένα από τα πλέον θαυμαστά αρχιτεκτονικά μνημεία του λεγόμενου οξυκόρυφου ή γοτθικού ρυθμού. Βρίσκεται στη νησίδα ιλ ντε λα Σιτέ του ποταμού Σηκουάνα, στο κέντρο της γαλλικής πρωτεύουσας.
+-Disneyland-
+Η Disneyland   είναι το πρώτο από τα δύο θεματικά πάρκα, που κτίστηκαν στο Disneyland Resort, στο Άναχαϊμ, της Καλιφόρνια, το οποίο άνοιξε στις 17 Ιουλίου 1955. Είναι, επίσης, το πρώτο και τελευταίο θεματικό πάρκο, το οποίο χτίστηκε υπό την επίβλεψη του Ουώλτ Ντίσνεϋ. Ήταν η πρώτη ατραξιόν του χώρου, και του οποίου το όνομα άλλαξε σε Disneyland Park, για να ξεχωρίζει από τις επεκτάσεις του χώρο, τη δεκαετία του 1990.</value>
+  </data>
+  <data name="gb" xml:space="preserve">
+    <value>Αγγλία
+- Big Ben -
+Μπιγκ Μπεν είναι το ψευδώνυμο για τη μεγάλη καμπάνα και το ρολόι στο βόρειο άκρο των ανακτόρων του Ουεστμίνστερ στο Λονδίνο , και έχει χρησιμοποιηθεί ευρύτερα ώστε να παραπέμπει γενικά στο ρολόι ή τον πύργο του ρολογιού. Είναι το μεγαλύτερο τεσσάρων όψεων ρολόι με καμπάνες και ο πύργος του ρολογιού είναι ο τρίτος ψηλότερος στον κόσμο. Γιόρτασε τα 150 χρόνια του στις 31 Μαΐου 2009, ημέρα κατά την οποία έλαβαν χώρα εορταστικές εκδηλώσεις. Η ανέγερση του πύργου ολοκληρώθηκε τις 10 Απριλίου 1858.
+-Γέφυρα του Λονδίνου-
+Η διάσημη αυτή γέφυρα των 265 μέτρων ολοκληρώθηκε το 1894. Είναι κινούμενη επιτρέποντας τα μεγάλα πλοία να συνεχίσουν το ταξίδι τους μέχρι τη γέφυρα του Λονδίνου. Μπορείτε να επισκεφτείτε το εσωτερικό των δύο πύργων που κρύβουν τον μηχανισμό ανέλκυσης της γέφυρας και να περπατήσετε στην πεζογέφυρα που ενώνει τους πύργους. Στις μέρες μας ανοιγοκλείνει περίπου 1000 φορές το χρόνο και μπορείτε να δείτε στην ιστοσελίδα της γέφυρας το πρόγραμμα αν θέλετε να την δείτε σε λειτουργία.
+- Μάτι του Λονδίνου -
+Το Μάτι του Λονδίνου (αγγλικά: London Eye) είναι μια γιγαντιαία ρόδα/τροχός στη νότια όχθη του Τάμεση στο Λονδίνο. Η κατασκευή έχει ύψος 135 μέτρα και ο τροχός έχει διάμετρο 120 μέτρα. Όταν άνοιξε για το κοινό το 2000 ήταν ο ψηλότερος τροχός του κόσμου. Το ύψος του ξεπεράστηκε το 2006 από το Αστέρι του Ναντσάνγκ, ύψους 160 μέτρων. Οι 32 κλειστές και κλιματιζόμενες ωοειδείς καμπίνες του τροχού, σχεδιασμένες και κατασκευασμένες από την γαλλική εταιρεία Poma, είναι προσκολλημένες στην εξωτερική περιφέρεια του τροχού και περιστρέφονται από ηλεκτροκινητήρες. Κάθε μία από τις καμπίνες, που ζυγίζει 10 τόνους και χωρά 25 άτομα, αντιπροσωπεύει τις συνοικίες του Λονδίνου. 
+- Aνάκτορα του Μπάκιγχαμ-
+Τα ανάκτορα του Μπάκιγχαμ είναι η έδρα της Βρετανικής μοναρχίας.  Βρίσκονται κοντά στο Σαιντ Τζέιμς Παρκ στο Λονδίνο. Κατασκευάστηκαν το 1703 για λογαριασμό του Σέφιλντ, δούκα του Μπάκιγχαμ, και αγοράστηκαν το 1761 από τον βασιλιά της Αγγλίας, Γεώργιο τον Γ΄. Επι Γεωργίου Δ΄ το κτίριο δέχθηκε αρκετές αλλαγές αφού προστέθηκαν νέες πτέρυγες έτσι ώστε να διοργανώνει εκεί ο Βασιλιάς τις επίσημες δεξιώσεις του. Την επέκταση ανέλαβε ο Τζον Νας ενώ λίγα χρόνια αργότερα, το 1847, προστέθηκε νέα πτέρυγα στην ανατολική πλευρά των ανακτόρων από τον Έντουαρντ Μπλορ. Τα ανάκτορα διαθέτουν 602 δωμάτια, εκ των οποίων 19 είναι αίθουσες τελετών, 52 βασιλικά δωμάτια και δωμάτια προσκεκλημένων, 188 δωμάτια προσωπικού και 78 μπάνια.</value>
+  </data>
+  <data name="ger" xml:space="preserve">
+    <value>Γερμανία
+- Κάστρο Νοϊσβάνσταϊν -
+Το Κάστρο Νοϊσβάνσταϊν είναι παλάτι του 19ου αιώνα το οποίο βρίσκεται σε λόφο πάνω από το χωριό Σβάνγκαου κοντά στο Φύσεν στη νοτιοδυτική Βαυαρία στη Γερμανία. Η κατασκευή του διατάχθηκε από τον Λουδοβίκο Β΄ της Βαυαρίας ως χώρος ανάπαυσης και φόρος τιμής στον Ρίχαρντ Βάγκνερ. Ο Λουδοβίκος πλήρωσε για το παλάτι από τη περιουσία του και από δάνεια και όχι από τα δημόσια κεφάλαια της Βαυαρίας. Το παλάτι αρχικά σχεδιαζόταν να γίνει προσωπικό καταφύγιο του βασιλιά, αλλά άνοιξε στο κοινό επί πληρωμή αμέσως μετά το θάνατό του το 1886, μη έχοντας ακόμα αποπερατωθεί.
+-Πύλη του Βρανδεμβούργου-
+Η Πύλη του Βρανδεμβούργου (γερμ. Brandenburger Tor), στο κέντρο του Βερολίνου, αποτελούσε παλιότερα την πύλη της πόλης, ενώ σήμερα είναι το πιο αναγνωρίσιμο σύμβολο της γερμανικής πρωτεύουσας. Το οικοδόμημα βρίσκεται στην πλατεία Παρίζερ (γερμ. Pariser Platz), την οποία συνδέει με την λεωφόρο Ούντερ ντεν Λίντεν (γερμ. Unter den Linden). Η πύλη είναι άρρηκτα συνδεδεμένη με πολλά σημαντικά γεγονότα της ιστορίας της Γερμανίας, αλλά και της παγκόσμιας ιστορίας, ιδιαίτερα του 20ού αιώνα.
+- Το Ράιχσταγκ -
+Το Ράιχσταγκ (γερμ. Reichstag) είναι το κτήριο που στεγάζει το Γερμανικό ομοσπονδιακό κοινοβούλιο (γερμ. Bundestag) στο Βερολίνο.[2] Το κτήριο έχει πλούσια ιστορία, παράλληλη με την άνοδο της Γερμανίας στην ευρωπαϊκή σκηνή, τις κρίσιμες στιγμές της νεότερης γερμανικής ιστορίας και την ανάπτυξη του κοινοβουλευτισμού. Ξεκίνησε να σχεδιάζεται το 1881 από την γερμανική βουλή. Τον αρχιτεκτονικό διαγωνισμό κέρδισε ο Paul Wallott, και οι εργασίες διήρκεσαν από το 1884 μέχρι την αποπεράτωση το 1894. Σε αυτό το κτίριο διακήρυξε ο σοσιαλδημοκράτης Φίλιπ Σάιντεμαν στις 9 Νοεμβρίου 1918 την παραίτηση του Κάιζερ Γουλιέλμου Β΄ και, συνεπώς, την κατάργηση της μοναρχίας και την πρώτη γερμανική δημοκρατία (χωρίς μονάρχη), γερμ. Republik.
+- Καθεδρικός Ναός Κολωνίας -
+Ο Ντομ ή Καθεδρικός Ναός της Κολωνίας (γερμ. Kölner Dom), είναι ένα από τα μεγαλύτερα και πιο φημισμένα οικοδομήματα γοτθικού ρυθμού παγκοσμίως. Είναι ρωμαιοκαθολικός ναός με άγιο προστάτη τον Απόστολο Πέτρο. Το 1996 ανακηρύχθηκε από την UNESCO σε Μνημείο Παγκόσμιας Κληρονομιάς. Έχει ύψος 157,38 μέτρα και είναι ο δεύτερος υψηλότερος ναός της Γερμανίας μετά το Μίνστερ της Ουλμ (161,53 μέτρα) και ο τρίτος παγκοσμίως. Μέχρι το 1884 ήταν το υψηλότερο κτίριο του κόσμου. Η τεράστια επιφάνεια της δυτικής πρόσοψης έχει, μαζί με τους δύο πύργους, εμβαδόν 7100 τ.μ. και είναι μέχρι σήμερα αξεπέραστη. Βρίσκεται σε απόσταση μόλις 200 μέτρων από τον Ρήνο, στο βόρειο τμήμα των πρώην ρωμαϊκών τειχών της πόλης, δίπλα στον κεντρικό σιδηροδρομικό σταθμό της Κολωνίας, το Μουσείο Λούντβιχ και το Ρωμαιογερμανικό Μουσείο</value>
+  </data>
+  <data name="gr" xml:space="preserve">
+    <value>Ελλάδα
+-Παρθενώνας-
+Ο Παρθενώνας είναι ναός, χτισμένος προς τιμήν της θεάς Αθηνάς, προστάτιδας της πόλης της Αθήνας. Υπήρξε το αποτέλεσμα της συνεργασίας σημαντικών αρχιτεκτόνων και γλυπτών στα μέσα του 5ου π.Χ. αιώνα. Η εποχή της κατασκευής του συνταυτίζεται με τα φιλόδοξα επεκτατικά σχέδια της Αθήνας και της πολιτικής κύρους που ακολούθησε έναντι των συμμάχων της κατά την περίοδο της αθηναϊκής ηγεμονίας στην Αρχαία Ελλάδα.
+- Ναός του Ποσειδώνα-
+Σούνιο (ή Κάβο κολώνες ή Καβοκολώνες) ονομάζεται το ακρωτήριο που βρίσκεται στο νοτιότερο άκρο στην εσχατιά του νομού Αττικής. Τα παράλια του είναι βραχώδη και απότομα. Υψώνεται σχεδόν κάθετα από την θάλασσα σε μεγάλο ύψος σχηματίζοντας στους πρόποδες αυτού προς δυσμάς μικρό όρμο που με ισθμό χωρίζεται από έτερο ανατολικό ορμίσκο. Το Σούνιο είναι γνωστό λόγω της σημαντικής γεωγραφικής θέσης του αλλά και εξαιτίας των ερειπίων του αρχαίου ναού του Ποσειδώνα που βρίσκονται σε αυτό. Στα νεότερα χρόνια, η ευρύτερη περιοχή λόγω της περιβαλλοντικής αξίας της, ανακηρύχθηκε εθνικός δρυμός. Ονομαστό είναι το ηλιοβασίλεμα από το Σούνιο.
+-Μετέωρα-
+Τα Μετέωρα είναι ένα σύμπλεγμα από τεράστιους σκοτεινόχρωμους βράχους από ψαμμίτη οι οποίοι υψώνονται έξω από την Καλαμπάκα, κοντά στα πρώτα υψώματα της Πίνδου και των Χασίων. Τα μοναστήρια των Μετεώρων, που είναι χτισμένα στις κορυφές κάποιων από τους βράχους, είναι σήμερα το δεύτερο πλέον σημαντικό μοναστικό συγκρότημα στην Ελλάδα, ύστερα από το Άγιο Όρος. Από τα τριάντα που υπήρξαν ιστορικά, σήμερα λειτουργούν μόνον έξι, τα οποία, από το 1988, περιλαμβάνονται στον κατάλογο μνημείων παγκόσμιας κληρονομιάς της UNESCO.
+-Κνοσσός-
+Το μινωικό ανάκτορο είναι ο κύριος επισκέψιμος χώρος της Κνωσού (ή Κνωσσού), σημαντικής πόλης κατά την αρχαιότητα, με συνεχή ζωή από τα νεολιθικά χρόνια έως τον 5ο αι. Είναι χτισμένο στο λόφο της Κεφάλας, με εύκολη πρόσβαση στη θάλασσα αλλά και στο εσωτερικό της Κρήτης. Κατά την παράδοση, υπήρξε η έδρα του σοφού βασιλιά Μίνωα. Συναρπαστικοί μύθοι, του Λαβύρινθου με το Μινώταυρο και του Δαίδαλου με τον Ίκαρο, συνδέονται με το ανάκτορο της Κνωσσού.</value>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>Ιταλία
+- Κολοσσαίο-
+Το Κολοσσαίο άρχισε να κατασκευάζεται στην εποχή του Βεσπασιανού το 72 μ.Χ., συνεχίστηκε την εποχή του Τίτου και ολοκληρώθηκε όταν ήταν αυτοκράτορας ο Τίτος, το 80 μ.Χ. Ονομαζόταν Αμφιθέατρο των Φλαβίων, από το όνομα της δυναστείας των αυτοκρατόρων που το έκτισαν. Για να κατασκευαστεί, εργάστηκαν χιλιάδες Ιουδαίοι αιχμάλωτοι που είχαν συλληφθεί από τον Τίτο μετά την καταστροφή των Ιεροσολύμων. Πήρε το όνομά του από το κολοσσιαίο άγαλμα του Νέρωνα (Ο Κολοσσός), που βρισκόταν στην τοποθεσία που χτίστηκε.
+
+- Πύργος της Πίζας-
+O Κεκλιμένος Πύργος της Πίζας (ιταλικά:Torre pendente di Pisa) ή απλά ο Πύργος της Πίζας (Torre di Pisa) είναι το λεγόμενο στα ιταλικά «campanile» (καμπαναριό), ή ανεξάρτητο κωδωνοστάσιο, του Καθεδρικού Ναού της Ιταλικής πόλης της Πίζας και είναι γνωστός παγκοσμίως για την ακούσια κλίση του. Βρίσκεται πίσω από τον Καθεδρικό Ναό και είναι το τρίτο παλαιότερο οικοδόμημα στην Πλατεία του Ντουόμο, της Πίζας (Piazza del Duomo) μετά τον Καθεδρικό Ναό και το κυκλικού σχήματος Βαπτιστήριο της Πίζας, ενώ δίπλα βρίσκεται και το Κοιμητήριο.
+
+- Βατικανό-
+Το Βατικανό είναι ανεξάρτητο κράτος, στη δυτική πλευρά της πόλης της Ρώμης στην Ιταλία και αποτελεί συνέχεια του εκκλησιαστικού (ή και παπικού) κράτους του Μεσαίωνα. Ιδρύθηκε στις 11 Φεβρουαρίου του 1929 με τη Συνθήκη του Λατερανού κατά την διάρκεια του Φασιστικού καθεστώτος του Μουσολίνι. Χαρακτηρίζεται ως το μικρότερο ανεξάρτητο κράτος, ως προς την έκταση του (0,44 τετρ. χλμ.) και τον πληθυσμό του (σύμφωνα με εκτιμήσεις του 2009)[1] αριθμεί 826 ανθρώπους. Στο Βατικανό εδρεύει η Αγία Έδρα, που αποτελεί το πνευματικό και διοικητικό κέντρο της Καθολικής Εκκλησίας. Η εκλογή του Πάπα γίνεται από κονκλάβιο καρδιναλίων, οι οποίοι είναι ηλικίας κάτω των 80 ετών.
+
+- Σάντα Μαρία ντελ Φιόρε-
+Ο καθεδρικός ναός Σάντα Μαρία ντελ Φιόρε (πιο γνωστός ως Ντουόμο) είναι το πιο χαρακτηριστικό μνημείο της Φλωρεντίας. Μία από τις μεγαλύτερες εκκλησίες του κόσμου, με χωρητικότητα 30,000 ατόμων, που χρειάστηκε εξακόσια χρόνια μέχρι την αποπεράτωση της, το 1887. Κατασκευάστηκε σε τρεις διαφορετικές περιόδους. Οι εντυπωσιακές του διαστάσεις συμβολίζουν ακριβώς την απόφαση των Φλωρεντινών να κυριαρχήσουν.</value>
+  </data>
+  <data name="ned" xml:space="preserve">
+    <value>Ολλανδία-Το μουσείο της Άννα Φρανκ-Το Μουσείο της Άννας Φρανκ βρίσκεται στο υδάτινο κανάλι "Πρίνσενχραχτ" του Άμστερνταμ. Αποτελεί ένα βιογραφικό μουσείο, πάνω στη ζωή της Άννας Φρανκ, ενός μικρού κοριτσιού εβραϊκής καταγωγής, που έμεινε γνωστή μετά τον θάνατό της από το ημερολόγιό της, που διασώθηκε με τον τίτλο ’’Το ημερολόγιο της Άννας Φρανκ’’- Κεουκενχόφ-Μεγάλο πάρκο του 19ου αιώνα, ανοιχτό από τον Μάρτιο μέχρι τον Μάιο, με ολλανδικά ανοιξιάτικα λουλούδια.- A’ dam lookout- Το A'DAM LOOKOUT είναι ένα κατάστρωμα παρατήρησης με ασυναγώνιστη πανοραμική θέα στο Άμστερνταμ. Θα δείτε το ιστορικό κέντρο της πόλης, το παλλόμενο λιμάνι, το μοναδικό ολλανδικό πόλντερ και θα δείτε τα διάσημα κανάλια που ανήκουν στον κατάλογο της παγκόσμιας κληρονομιάς της UNESCO.- Kasteel Muiderslot - Η ιστορία του Κάστρου Muiden ξεκινά με τον Count Floris V ο οποίος έχτισε ένα πέτρινο κάστρο στο στόμα του ποταμού το 1280, όταν κατάκτησε εντολή σε μια περιοχή που αποτελούσε μέρος της Θάλασσας της Ουτρέχτης. Το κάστρο χρησιμοποιήθηκε για να επιβάλει φόρο στους εμπόρους. Πρόκειται για ένα σχετικά μικρό κάστρο, με διάμετρο 32 με 35 μέτρα, με τοίχους από τούβλα πάχους πάνω από 1,5 μέτρα. Ένα μεγάλο τάφρο περιβάλλεται από το κάστρο.</value>
+  </data>
+  <data name="rom" xml:space="preserve">
+    <value>Ρουμανία-Κάστρο Μπραν-Το κάστρο  Μπραν (ρουμανικά: Castelul Bran) είναι κάστρο το οποίο βρίσκεται κοντά στο χωριό Μπραν, Κομητεία Μπρασόβ, στην κεντρική Ρουμανία. Το κάστρο κατασκευάστηκε τον 13ο αιώνα από το Τευτονικό Τάγμα και σήμερα αποτελεί εθνικό μνημείο της Ρουμανίας. Βρίσκεται στα όρια Τρανσυλβανίας και Βλαχίας. Συχνά αναφέρεται ως το «κάστρο του Κόμη Δράκουλα», αλλά δεν υπάρχουν στοιχεία ότι ο Μπραμ Στόκερ αναφερόταν σε αυτό το κάστρο και η σχέση του κάστρου με τον Βλαντ Γ΄ Τσέπες, έμπνευση του μυθιστορήματος, είναι ισχνή.Το κάστρο σήμερα λειτουργεί ως μουσείο-Παλάτι του λαού-Το Παλάτι της Βουλής στο Βουκουρέστι της Ρουμανίας, που παλαιότερα ήταν γνωστό ως το Παλάτι του Λαού, είναι χτισμένο σε ένα λόφο της ρουμανικής πρωτεύουσας, κοντά στην πλατεία Ουνίρι, είναι το μεγαλύτερο κτίριο της Ευρώπης και το δεύτερο σε επιφάνεια οικοδόμημα στον κόσμο μετά το αμερικανικό Πεντάγωνο στην Ουάσινγκτον.-Σιδηρές Πύλες-Οι Σιδηρές είναι μια σειρά φαραγγιών στα σύνορα Σερβίας και Ρουμανίας, συνολικού μήκους 134 χιλιομέτρων (μαζί με τις ενδιάμεσες κοιλάδες).Οι Σιδηρές πύλες δημιουργήθηκαν από τον Δούναβη μεταξύ των Νότιων Καρπαθίων και των βόρειων αντερεισμάτων της οροσειράς του Αίμου, διοχετεύοντας τα νερά της Παννονικής θάλασσας στον Εύξεινο πόντο και διαμορφώνοντας το σημερινό Παννονικό βαθύπεδο, διαδικασία που ολοκληρώθηκε πριν από 600.000 χρόνια, στη γεωλογική περίοδο της Πλειστοκαίνου. Σήμερα αποτελούν εθνικά πάρκα της Ρουμανίας και της Σερβίας. Κοντά στις Σιδηρές Πύλες υπάρχει ομώνυμη τεχνητή λίμνη, που σχηματίστηκε από φράγμα που κατασκεύασαν από κοινού Ρουμανία και Σερβία, η οποία τροφοδοτεί υδροηλεκτρικούς σταθμούς των δυο χωρών. Στην περιοχή υπήρχε επίσης η Γέφυρα του Τραϊανού, η οποία για 1.000 χρόνια ήταν η μεγαλύτερη τοξωτή γέφυρα του κόσμου.Φαράγγια-Το Μοναστήρι της Μολδοβίτσα-Το Μοναστήρι της Μολδοβίτσα είναι μια ρουμανική Ορθόδοξη μονή που βρίσκεται στην κοινότητα Βάτρα Μολδοβίτσα, Μολδαβία, Ρουμανία. Το Μοναστήρι της Μολδοβίτσα χτίστηκε το 1532. Ιδρύθηκε ως ένα προστατευτικό φράγμα κατά των Μουσουλμάνων Οθωμανών κατακτητών.</value>
+  </data>
+  <data name="rus" xml:space="preserve">
+    <value>Ρωσία
+- Ερμιτάζ-
+Το Ερμιτάζ αποτελεί το μεγαλύτερο και ένα από τα παλαιότερα μουσεία στον κόσμο, καθώς και ένα από τα σημαντικότερα αξιοθέατα της Αγίας Πετρούπολης. Φιλοξενείται σε ένα συγκρότημα έξι κτιρίων, τα παλαιά Χειμερινά Ανάκτορα, στις όχθες του ποταμού Νέβα. Ανάμεσα στα σημαντικά εκθέματα του μουσείου, περιλαμβάνεται η συλλογή έργων δυτικοευρωπαϊκής τέχνης με έργα των Λεονάρντο ντα Βίντσι, Ωγκύστ Ροντέν, Πάμπλο Πικάσσο, Ανρί Ματίς, Πωλ Γκωγκέν, Πωλ Σεζάν, Κλωντ Μονέ, Ρέμπραντ και άλλων. Φιλοξενούνται ακόμα εκθέματα από την αρχαία Ελλάδα, την Αίγυπτο και τη Ρώμη, καθώς και μεγάλες συλλογές ειδών κοσμηματοποιίας. Ο συνολικός αριθμός των έργων που ανήκουν στις συλλογές του Ερμιτάζ ξεπερνούν τα 3.000.000.
+- Κρεμλίνο της Μόσχας-
+Το Κρεμλίνο της Μόσχας αποτελεί το αρχαιότερο τμήμα της Ρωσικής πρωτεύουσας Μόσχας και συνάμα το ιστορικό της κέντρο. Συχνά αναφέρεται και μόνο ως Κρεμλίνο, που όμως απλά είναι η Ρωσική λέξη για το «φρούριο» ή «κάστρο». Το Κρεμλίνο της Μόσχας αποτελούνταν αρχικά από ένα μεσαιωνικό κάστρο, που εξελίχθηκε στα τέλη του 15ου αιώνα σε μορφή Ακροπόλεως. Αρχιτεκτονικό χαρακτηριστικό αποτελεί το εξωτερικό τείχος και το οχυρωματικό συγκρότημα με τους 20 πύργους, που παρά την ανέγερσή του στο μεγαλύτερο βαθμό στα χρόνια 1485 με 1499, συντηρείται μέχρι σήμερα σε πολύ καλή κατάσταση. Η οχύρωση αυτή αποτέλεσε πρότυπο και για τη δημιουργία άλλων Κρεμλίνων σε Ρωσικές πόλεις.
+-Ναός Αγίου Βασιλείου-
+Ο Καθεδρικός Ναός της Αγίας Σκέπης της Υπεραγίας Θεοτόκου επί της τάφρου πιο γνωστός ως Καθεδρικός Ναός του Αγίου Βασιλείου του Ευλογημένου ή Καθεδρικός του Αγίου Βασιλείου, είναι μια εκκλησία με πολλούς κρεμμυδοειδείς τρούλους, η οποία βρίσκεται στην Κόκκινη Πλατεία της Μόσχας και είναι το σύμβολό της. Την ανέγερση του Καθεδρικού Ναού ζήτησε ο Τσάρος Ιβάν ο Τρομερός και κτίστηκε μεταξύ των ετών 1555 και 1561 σε ανάμνηση της κατάκτησης του Χανάτου του Καζάν που έγινε στις αρχές Οκτωβρίου του 1552, ακριβώς την ημέρα κατά την οποία η ορθόδοξη εκκλησία γιορτάζει την Αγία Σκέπη της Υπεραγίας Θεοτόκου
+- Κόκκινη Πλατεία-
+Η Κόκκινη Πλατεία είναι μια αστική πλατεία στη Μόσχα, στη Ρωσία. Η πλατεία χωρίζει το Κρεμλίνο, την πρώην βασιλική ακρόπολη και τη σημερινή επίσημη κατοικία του Προέδρου της Ρωσίας, από μια ιστορική συνοικία γνωστή ως Κιτάι Γκόροντ. Καθώς οι κύριες οδοί της Μόσχας ξεκινούν από εδώ προς όλες τις κατευθύνσεις, οι οποίες μετά γίνονται μεγάλοι αυτοκινητόδρομοι έξω από την πόλη, η Κόκκινη Πλατεία θεωρείται συχνά ως η κεντρική πλατεία της Μόσχας και όλης της Ρωσίας.</value>
+  </data>
+  <data name="sp" xml:space="preserve">
+    <value>Ισπανία
+- Σαγράδα Φαμίλια-
+Η Σαγράδα Φαμίλια είναι μεγάλη ρωμαιοκαθολική εκκλησία στη Βαρκελώνη της Καταλονίας στην Ισπανία, σχεδιασμένη από τον Καταλανό αρχιτέκτονα Αντόνι Γκαουντί (1852 1926). Αν και ημιτελής, η εκκλησία αποτελεί Μνημείο Παγκόσμιας Κληρονομιάς της UNESCO[4] και το Νοέμβριο του 2010 εγκαινιάστηκε και καθαγιάστηκε από τον Πάπα Βενέδικτο ΙΣΤ΄ και έγινε Βασιλική και μπορεί πλέον να τελεστεί εκεί η Θεία Λειτουργία και να την παρακολουθήσουν οι πιστοί
+- Το Πάρκο Γκουέλ -
+Το Πάρκο Γκουέλ είναι ένα δημόσιο πάρκο με κήπους και αρχιτεκτονικά στοιχεία στο άνω μέρος της Βαρκελώνης, στη νότια πλαγιά του όρους Καρμέλο, στους πρόποδες της οροσειράς Σιέρα δε Κολσερόλα, στη βορεινή πλευρά του βρίσκεται το Πάρκο του Καρμέλο. Διοικητικά ανήκει στην περιοχή Λα Σαλούδ του διαμερίσματος ντε Γκράσια. Δημιουργηθηκε ως μέρος της αστικοποίησης της περιοχής και σχεδιάστηκε από τον αρχιτέκτονα Άντονι Γκαουντί, τον σημαντικότερο εκπρόσωπο του Καταλανικού Μοντερνισμού, ύστερα από παραγγελία του επιχειρηματία Εουσέμπι Γκουέλ. Κατασκευάστηκε ανάμεσα στο 1900 και το 1914 και άνοιξε σαν δημόσιο πάρκο το 1926. Το 1984 η UNESCO ανακήρυξε το Πάρκο Γκουέλ σε μνημείο παγκόσμιας κληρονομιάς, ως μέρος του συνόλου «Έργα του Άντονι Γκαουντί»
+- Αλάμπρα-
+Η Αλάμπρα είναι ανάκτορο και φρούριο των Μαυριτανών μοναρχών στην Γρανάδα, στα νότια της Ισπανίας όπως ήταν γνωστή κατά τη διάρκεια της κατασκευής του φρουρίου), το οποίο καταλαμβάνει ένα λόφο στο νοτιοανατολικό όριο της πόλης. Σήμερα η Αλάμπρα είναι τουριστικό αξιοθέατο εξαιρετικής Ισλαμικής αρχιτεκτονικής, παρόλο που πολλές από τις εμφανείς διακοσμήσεις και οι κήποι είναι πρόσφατες αποκαταστάσεις των παλαιότερων. 
+- Κάζα Μπατλό -
+Το Κάζα Μπατλό ένα διάσημο κτίριο στο κέντρο της Βαρκελώνης και είναι ένα από τα αριστουργήματα του Αντόνι Γκαουντί. Το κτίριο αποτελεί αναδιαμόρφωση ενός παλαιότερου σπιτιού, το οποίο επανασχεδίασε ο Γκαουντί το 1904 και ανακαινίστηκε αρκετές φορές από τότε. Οι βοηθοί του Γκαουντί Domènec Sugrañes i Gras, Josep Canaleta και Joan Rubió συνέβαλαν στο έργο της ανακαίνισης. Το τοπικό όνομα του κτιρίου είναι Casa dels ossos (Το σπίτι των οστών), λόγω της οργανικής σκελετώδους εμφάνισής του. Αρχικά σχεδιάστηκε για μια μεσαίας τάξης οικογένεια και βρίσκεται σε μια ευημερούσα περιοχή της Βαρκελώνης.</value>
+  </data>
+  <data name="sw" xml:space="preserve">
+    <value>Σουηδία 
+- Ανάκτορο της Στοκχόλμης-
+Το παλάτι της Στοκχόλμης είναι η επίσημη κατοικία της σουηδικής βασιλικής οικογένειας και βρίσκεται στο ιστορικό κέντρο της πόλης (Gamla Stan) πολύ κοντά στην έδρα του σουηδικού κοινοβουλίου. Αρχικά στη θέση που βρίσκεται σήμερα το παλάτι υπήρχε μόνο το φρούριο που είχε χτιστεί τον 13ο αιώνα από τον Γιάρλ Μπίργκερ (Jarl Birger) και είχε σκοπό την υπεράσπιση του περάσματος προς τη λίμνη Μάλαρεν
+- Μουσείο Σκένσεν-
+Στην πανέμορφη Στοκχόλμη της Σουηδίας, στην περιοχή Djurgården υπάρχει ένα τεράστιο υπαίθριο μουσείο, το Skansen. Ιδρύθηκε το 1891 και εξακολουθεί να είναι ένα από τα σημαντικότερα αξιοθέατα της πόλης. Υπάρχουν περίπου 150 αγροικίες που απεικονίζουν τον τρόπο ζωής των Σουήδων, από τα πρώτα χρόνια που κατοικήθηκε η χώρα, μέχρι και τα νεότερα.
+- Δημαρχείο της Στοκχόλμης -
+Στην ανατολική πλευρά του νησιού Kungsholmet δίπλα στο κύμα αποτελεί μία από τις πιο ρομαντικές εικόνες της Στοκχόλμης! Το Δημαρχείο της πόλης χτισμένο από 8 εκ.κόκκινα τούβλα σε Εθνικό Ρομαντικό στυλ , με τις χαρακτηριστικές καμάρες , τουα κύπους του δίπλα στο κύμα και τον επιβλητικό πύργο του που φτάνει τα 106 μ.
+- Καθεδρικός ναός Λουντ-
+Η Λουντ (Σουηδικά: Lund (βοήθεια·πολυμέσα)) είναι μια πόλη της νότιας Σουηδίας, στο γεωγραφικό διαμέρισμα Σκάνια. Βρίσκεται περίπου 20 χιλιόμετρα βορειoανατολικά από το Μάλμε, και περίπου 40 χιλιόμετρα ανατολικά από την Κοπεγχάγη. Στη Λουντ βρίσκεται ένα από τα μεγαλύτερα πανεπιστήμια της Σκανδιναβίας.</value>
+  </data>
+  <data name="ned1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ned1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ned2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ned2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ned3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ned3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ned4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ned4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fra1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fra2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fra2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fra3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fra3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fra4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fra4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gr1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gr2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gr3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gr3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gr4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gr4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rom1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rom3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rom3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rom4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rom4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sw1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sw2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sw3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sw4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ger1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ger1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ger2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ger2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ger3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ger3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ger4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ger4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rus1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rus2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rus3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rus4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rus4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sp1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sp2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sp3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sp4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
